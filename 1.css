@@ -1,0 +1,25 @@
+/**
+ * @Author: Your name
+ * @Date:   2025-04-13 19:21:44
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2025-04-13 19:29:09
+ */
+ .nav-container.normal-nav-container {
+    z-index: 2;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center; /* ensures vertical alignment */
+}
+
+.logo img {
+    height: 48px; /* increase this value as needed */
+    width: auto;
+    margin-right: 24px; /* spacing between logo and menu */
+    display: block;
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* aligns "Overview" vertically with logo */
+}
